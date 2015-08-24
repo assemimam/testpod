@@ -1,9 +1,9 @@
 Pod::Spec.new do |s|
 
-s.name              = 'PrivatePod'
+s.name              = 'testpod'
 s.version           = '1.0.1'
 s.summary           = 'Description of your project'
-s.homepage          = 'https://github.com/assemimam/PrivatePod'
+s.homepage          = 'https://github.com/assemimam/testpod'
 s.license           = {
 :type => 'MIT',
 :file => 'LICENSE'
@@ -12,7 +12,7 @@ s.author            = {
 'YOURNAME' => 'YOUREMAILADDRESS'
 }
 s.source            = {
-:git => 'https://github.com/assemimam/PrivatePod.git',
+:git => 'https://github.com/assemimam/testpod.git',
 :tag => s.version.to_s
 }
 s.source_files      = 'PrivatePod/*.{m,h}'
