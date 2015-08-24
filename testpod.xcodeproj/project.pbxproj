@@ -15,6 +15,7 @@
 		D72FC9B21B8AF9D300FAE813 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D72FC9B01B8AF9D300FAE813 /* LaunchScreen.xib */; };
 		D72FC9BE1B8AF9D300FAE813 /* testpodTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D72FC9BD1B8AF9D300FAE813 /* testpodTests.m */; };
 		D72FC9C91B8AF9DC00FAE813 /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = D72FC9C81B8AF9DC00FAE813 /* Calculator.m */; };
+		D72FC9CB1B8AFBAE00FAE813 /* testpod.podspec in Resources */ = {isa = PBXBuildFile; fileRef = D72FC9CA1B8AFBAE00FAE813 /* testpod.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		D72FC9BD1B8AF9D300FAE813 /* testpodTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testpodTests.m; sourceTree = "<group>"; };
 		D72FC9C71B8AF9DC00FAE813 /* Calculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calculator.h; sourceTree = "<group>"; };
 		D72FC9C81B8AF9DC00FAE813 /* Calculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calculator.m; sourceTree = "<group>"; };
+		D72FC9CA1B8AFBAE00FAE813 /* testpod.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = testpod.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 		D72FC9A01B8AF9D300FAE813 /* testpod */ = {
 			isa = PBXGroup;
 			children = (
+				D72FC9CA1B8AFBAE00FAE813 /* testpod.podspec */,
 				D72FC9C71B8AF9DC00FAE813 /* Calculator.h */,
 				D72FC9C81B8AF9DC00FAE813 /* Calculator.m */,
 				D72FC9A51B8AF9D300FAE813 /* AppDelegate.h */,
@@ -204,6 +207,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D72FC9CB1B8AFBAE00FAE813 /* testpod.podspec in Resources */,
 				D72FC9AD1B8AF9D300FAE813 /* Main.storyboard in Resources */,
 				D72FC9B21B8AF9D300FAE813 /* LaunchScreen.xib in Resources */,
 				D72FC9AF1B8AF9D300FAE813 /* Images.xcassets in Resources */,
@@ -422,6 +426,7 @@
 				D72FC9C31B8AF9D300FAE813 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D72FC9C41B8AF9D300FAE813 /* Build configuration list for PBXNativeTarget "testpodTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +435,7 @@
 				D72FC9C61B8AF9D300FAE813 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
