@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
 s.name              = 'testpod'
-s.version           = '1.0.1'
+s.version           = 'v1.0'
 s.summary           = 'Description of your project'
 s.homepage          = 'https://github.com/assemimam/testpod'
 s.license           = {
