@@ -15,7 +15,7 @@ s.source            = {
 :git => 'https://github.com/assemimam/testpod.git',
 :tag => s.version.to_s
 }
-s.source_files      = 'PrivatePod/*.{m,h}'
+s.source_files      = 'testpod/testpod/*.{m,h}'
 s.requires_arc      = true
 
 end
