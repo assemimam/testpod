@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		D72FC9A41B8AF9D300FAE813 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D72FC9A31B8AF9D300FAE813 /* main.m */; };
-		D72FC9BE1B8AF9D300FAE813 /* testpodTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D72FC9BD1B8AF9D300FAE813 /* testpodTests.m */; };
 		D72FC9C91B8AF9DC00FAE813 /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = D72FC9C81B8AF9DC00FAE813 /* Calculator.m */; };
 		D72FC9D41B8B17E900FAE813 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D72FC9D31B8B17E900FAE813 /* Info.plist */; };
 /* End PBXBuildFile section */
@@ -27,8 +26,6 @@
 		D72FC99E1B8AF9D300FAE813 /* testpod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testpod.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D72FC9A31B8AF9D300FAE813 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D72FC9B71B8AF9D300FAE813 /* testpodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testpodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D72FC9BC1B8AF9D300FAE813 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D72FC9BD1B8AF9D300FAE813 /* testpodTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testpodTests.m; sourceTree = "<group>"; };
 		D72FC9C71B8AF9DC00FAE813 /* Calculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calculator.h; sourceTree = "<group>"; };
 		D72FC9C81B8AF9DC00FAE813 /* Calculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calculator.m; sourceTree = "<group>"; };
 		D72FC9D31B8B17E900FAE813 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,7 +53,6 @@
 			isa = PBXGroup;
 			children = (
 				D72FC9A01B8AF9D300FAE813 /* testpod */,
-				D72FC9BA1B8AF9D300FAE813 /* testpodTests */,
 				D72FC99F1B8AF9D300FAE813 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,23 +81,6 @@
 			children = (
 				D72FC9D31B8B17E900FAE813 /* Info.plist */,
 				D72FC9A31B8AF9D300FAE813 /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		D72FC9BA1B8AF9D300FAE813 /* testpodTests */ = {
-			isa = PBXGroup;
-			children = (
-				D72FC9BD1B8AF9D300FAE813 /* testpodTests.m */,
-				D72FC9BB1B8AF9D300FAE813 /* Supporting Files */,
-			);
-			path = testpodTests;
-			sourceTree = "<group>";
-		};
-		D72FC9BB1B8AF9D300FAE813 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				D72FC9BC1B8AF9D300FAE813 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -213,7 +192,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D72FC9BE1B8AF9D300FAE813 /* testpodTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
