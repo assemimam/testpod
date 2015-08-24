@@ -11,6 +11,7 @@
 		D72FC9D61B8B184900FAE813 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D72FC9D51B8B184900FAE813 /* Info.plist */; };
 		D72FC9D81B8B185A00FAE813 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D72FC9D71B8B185A00FAE813 /* main.m */; };
 		D72FC9DB1B8B187100FAE813 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D72FC9DA1B8B187100FAE813 /* AppDelegate.m */; };
+		D72FC9DD1B8B18E600FAE813 /* testpod.podspec in Resources */ = {isa = PBXBuildFile; fileRef = D72FC9DC1B8B18E600FAE813 /* testpod.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		D72FC9D71B8B185A00FAE813 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D72FC9D91B8B187100FAE813 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D72FC9DA1B8B187100FAE813 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D72FC9DC1B8B18E600FAE813 /* testpod.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = testpod.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +39,7 @@
 		D72FC9951B8AF9D300FAE813 = {
 			isa = PBXGroup;
 			children = (
+				D72FC9DC1B8B18E600FAE813 /* testpod.podspec */,
 				D72FC9A01B8AF9D300FAE813 /* testpod */,
 				D72FC99F1B8AF9D300FAE813 /* Products */,
 			);
@@ -128,6 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D72FC9DD1B8B18E600FAE813 /* testpod.podspec in Resources */,
 				D72FC9D61B8B184900FAE813 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
