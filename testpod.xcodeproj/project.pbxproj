@@ -9,10 +9,6 @@
 /* Begin PBXBuildFile section */
 		D72FC9A41B8AF9D300FAE813 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D72FC9A31B8AF9D300FAE813 /* main.m */; };
 		D72FC9A71B8AF9D300FAE813 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D72FC9A61B8AF9D300FAE813 /* AppDelegate.m */; };
-		D72FC9AA1B8AF9D300FAE813 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D72FC9A91B8AF9D300FAE813 /* ViewController.m */; };
-		D72FC9AD1B8AF9D300FAE813 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D72FC9AB1B8AF9D300FAE813 /* Main.storyboard */; };
-		D72FC9AF1B8AF9D300FAE813 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D72FC9AE1B8AF9D300FAE813 /* Images.xcassets */; };
-		D72FC9B21B8AF9D300FAE813 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D72FC9B01B8AF9D300FAE813 /* LaunchScreen.xib */; };
 		D72FC9BE1B8AF9D300FAE813 /* testpodTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D72FC9BD1B8AF9D300FAE813 /* testpodTests.m */; };
 		D72FC9C91B8AF9DC00FAE813 /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = D72FC9C81B8AF9DC00FAE813 /* Calculator.m */; };
 		D72FC9CB1B8AFBAE00FAE813 /* testpod.podspec in Resources */ = {isa = PBXBuildFile; fileRef = D72FC9CA1B8AFBAE00FAE813 /* testpod.podspec */; };
@@ -34,17 +30,12 @@
 		D72FC9A31B8AF9D300FAE813 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D72FC9A51B8AF9D300FAE813 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D72FC9A61B8AF9D300FAE813 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D72FC9A81B8AF9D300FAE813 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D72FC9A91B8AF9D300FAE813 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		D72FC9AC1B8AF9D300FAE813 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D72FC9AE1B8AF9D300FAE813 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		D72FC9B11B8AF9D300FAE813 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		D72FC9B71B8AF9D300FAE813 /* testpodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testpodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D72FC9BC1B8AF9D300FAE813 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D72FC9BD1B8AF9D300FAE813 /* testpodTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testpodTests.m; sourceTree = "<group>"; };
 		D72FC9C71B8AF9DC00FAE813 /* Calculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calculator.h; sourceTree = "<group>"; };
 		D72FC9C81B8AF9DC00FAE813 /* Calculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calculator.m; sourceTree = "<group>"; };
-		D72FC9CA1B8AFBAE00FAE813 /* testpod.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = testpod.podspec; sourceTree = "<group>"; };
+		D72FC9CA1B8AFBAE00FAE813 /* testpod.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = testpod.podspec; path = testpod/testpod.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +59,7 @@
 		D72FC9951B8AF9D300FAE813 = {
 			isa = PBXGroup;
 			children = (
+				D72FC9CA1B8AFBAE00FAE813 /* testpod.podspec */,
 				D72FC9A01B8AF9D300FAE813 /* testpod */,
 				D72FC9BA1B8AF9D300FAE813 /* testpodTests */,
 				D72FC99F1B8AF9D300FAE813 /* Products */,
@@ -86,16 +78,10 @@
 		D72FC9A01B8AF9D300FAE813 /* testpod */ = {
 			isa = PBXGroup;
 			children = (
-				D72FC9CA1B8AFBAE00FAE813 /* testpod.podspec */,
 				D72FC9C71B8AF9DC00FAE813 /* Calculator.h */,
 				D72FC9C81B8AF9DC00FAE813 /* Calculator.m */,
 				D72FC9A51B8AF9D300FAE813 /* AppDelegate.h */,
 				D72FC9A61B8AF9D300FAE813 /* AppDelegate.m */,
-				D72FC9A81B8AF9D300FAE813 /* ViewController.h */,
-				D72FC9A91B8AF9D300FAE813 /* ViewController.m */,
-				D72FC9AB1B8AF9D300FAE813 /* Main.storyboard */,
-				D72FC9AE1B8AF9D300FAE813 /* Images.xcassets */,
-				D72FC9B01B8AF9D300FAE813 /* LaunchScreen.xib */,
 				D72FC9A11B8AF9D300FAE813 /* Supporting Files */,
 			);
 			path = testpod;
@@ -208,9 +194,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D72FC9CB1B8AFBAE00FAE813 /* testpod.podspec in Resources */,
-				D72FC9AD1B8AF9D300FAE813 /* Main.storyboard in Resources */,
-				D72FC9B21B8AF9D300FAE813 /* LaunchScreen.xib in Resources */,
-				D72FC9AF1B8AF9D300FAE813 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,7 +211,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D72FC9AA1B8AF9D300FAE813 /* ViewController.m in Sources */,
 				D72FC9C91B8AF9DC00FAE813 /* Calculator.m in Sources */,
 				D72FC9A71B8AF9D300FAE813 /* AppDelegate.m in Sources */,
 				D72FC9A41B8AF9D300FAE813 /* main.m in Sources */,
@@ -252,25 +234,6 @@
 			targetProxy = D72FC9B81B8AF9D300FAE813 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		D72FC9AB1B8AF9D300FAE813 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D72FC9AC1B8AF9D300FAE813 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		D72FC9B01B8AF9D300FAE813 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D72FC9B11B8AF9D300FAE813 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		D72FC9BF1B8AF9D300FAE813 /* Debug */ = {
